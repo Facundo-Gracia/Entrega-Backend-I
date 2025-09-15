@@ -22,9 +22,10 @@ const productSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    enum: ['teclados', 'mouses', 'monitores', 'otros'], // podés ajustar
+    enum: ['teclados', 'mouses', 'monitores', 'otros'],
     default: 'otros',
   },
 });
 
-export const ProductModel = mongoose.model('Product', productSchema);
+const Product = mongoose.model('Product', productSchema);
+export default Product;

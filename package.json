@@ -1,14 +1,13 @@
 {
   "name": "Proyecto-Final",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
-    "keywords": [],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
